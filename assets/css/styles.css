@@ -1,0 +1,239 @@
+:root {
+    --rbgray-light: #b8b8b8;
+    --rbgray: #707070;
+    --rborange: #FF9D4D;
+    --rbgreen: #21B386;
+}
+
+p,
+.sub {
+    direction: rtl;
+}
+
+html {
+    scroll-behavior: smooth;
+    color: var(--rbgray);
+}
+
+::placeholder {
+    color: var(--rbgray-light) !important;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.rb-border {
+    border: 2px solid var(--rbgray) !important;
+}
+
+.table-small td {
+    font-size: 14px;
+    padding: 3px;
+    padding-right: 12px;
+}
+
+.mtn-1 {
+    margin-top: -1.5rem;
+}
+
+.rb-line {
+    width: 100%;
+    height: 4px;
+    content: '';
+    margin-top: 10px;
+}
+
+
+.text-orange {
+    color: var(--rborange) !important;
+}
+
+.text-green {
+    color: var(--rbgreen) !important;
+}
+
+.btn-outline-orange {
+    border: 2px solid var(--rborange);
+}
+
+.btn-outline-green {
+    border: 2px solid var(--rbgreen);
+}
+
+
+.btn-round {
+    border-radius: 100px !important;
+}
+
+.background-orange {
+    background-color: var(--rborange) !important;
+}
+
+.background-green {
+    background-color: var(--rbgreen) !important;
+}
+
+
+.btn-orange {
+    background-color: var(--rborange) !important;
+    color: white !important;
+}
+
+.btn-green {
+    background-color: var(--rbgreen) !important;
+    color: white !important;
+}
+
+@font-face {
+    font-family: "robobit";
+    src: url("../font/IRANSansWeb\(FaNum\).ttf") format("truetype");
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: "robobit";
+    src: url("../font/IRANSansWeb\(FaNum\)_Medium.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "robobit";
+    src: url("../font/IRANSansWeb\(FaNum\)_Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "robobit";
+    src: url("../font/IRANSansWeb\(FaNum\)_Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+* {
+    font-family: robobit;
+    color: var(--rbgray);
+}
+
+.fw-1 {
+    font-weight: 500;
+}
+
+.fw-2 {
+    font-weight: 600;
+}
+
+.fw-3 {
+    font-weight: 700;
+}
+
+.fw-4 {
+    font-weight: 900;
+}
+
+.f-3 {
+    font-size: 3rem !important;
+}
+
+.f-4 {
+    font-size: 4rem !important;
+}
+
+.f-15 {
+    font-size: 1.5rem !important;
+}
+
+.cd-label{
+    color: var(--rbgray)!important;
+}
+
+.title .main {
+    font-weight: 700;
+}
+
+button .icon {
+    width: 32px !important;
+}
+
+.title .sub {
+    font-weight: 600;
+}
+
+.nav-top a,
+.nav-top span {
+    color: var(--rbgray);
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.rotate-90 {
+    transform: rotate(-90deg);
+}
+
+section.hero {
+    height: 90vh;
+}
+
+.steps .circle {
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background-color: var(--rbgray);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.steps .tag {
+    position: absolute;
+    right: -74px;
+    margin-top: -64px;
+    cursor: pointer;
+    width: 140px;
+    text-align: center;
+    height: 30px;
+}
+
+.steps .circle img {
+    width: 32px;
+    margin-top: 28px;
+}
+
+.steps .line {
+    width: 4px;
+    height: 64px;
+    margin: auto;
+    background-color: var(--rbgray);
+}
+
+.line.active {
+    background-color: var(--rborange);
+}
+
+.equivalent {
+    padding: 3px;
+    border-top: 2px solid var(--rbgray);
+    border-bottom: 2px solid var(--rbgray);
+}
+
+.ico-tet {
+    width: 50px !important;
+}
+
+.content-terms ul li {
+    line-height: 24px;
+}
+
+.content-terms .heading {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--rbgreen);
+}
+
+caption {
+    caption-side: top;
+    background-color: var(--rbgreen);
+    text-align: center;
+    color: white;
+}

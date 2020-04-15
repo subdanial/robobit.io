@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="ico-phone" transform="translate(-355 -62)">
+    <rect id="Rectangle_2" data-name="Rectangle 2" width="32" height="32" rx="4" transform="translate(355 62)" fill="#707070"/>
+    <path id="phone-solid" d="M17.193.847,13.567.01A.842.842,0,0,0,12.608.5L10.935,4.4a.835.835,0,0,0,.241.976l2.113,1.729A12.922,12.922,0,0,1,7.11,13.284L5.38,11.171a.836.836,0,0,0-.976-.241L.5,12.6a.847.847,0,0,0-.488.962l.837,3.626a.837.837,0,0,0,.816.649A16.176,16.176,0,0,0,17.842,1.663.836.836,0,0,0,17.193.847Z" transform="translate(362.36 68.464)" fill="#fff"/>
+  </g>
+</svg>
